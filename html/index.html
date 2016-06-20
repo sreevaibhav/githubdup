@@ -4,10 +4,85 @@
   	<title>
   		Making a github home page dup
   	</title>
+    <style>
+      .header {
+        background: red;
+      }
+      #logo {
+        width: 50px;
+        height: 50px;
+        display: inline;
+        float: left;
+      }
+      .menu{
+        list-style: none;
+      }
+      .menu-item{
+        display: inline;
+      }
+      .header-left {
+        float: left;
+      }
+      .header-right {
+        float: right;
+      }
+      .clear {
+        clear: both;
+      }
+    </style>
   </head>
   <body>
+
+
+
+
+    <div class="header">
+      <div class="header-left">
+        <img id="logo" src="../img/GitHub-Mark.png"></img>
+        <ul class="menu">
+          <li class="menu-item">personal</li>
+          <li class="menu-item">open source</li>
+          <li class="menu-item">business</li>
+          <li class="menu-item">explore</li>
+        </ul>
+      </div>
+      <div class="header-right"> 
+        <ul class ="menu">
+          <li class="menu-item">pricing</li>
+          <li class="menu-item">blog</li>
+          <li class="menu-item">support</li>
+        </ul>
+        <form>
+          <input type="text">
+          </input>
+        </form>
+        <button>signin</button>
+        <button>signup</button>
+      </div>
+    </div>
+
+
+    <div class="clear"></div>
+
+    <div class="main">
+      <div>
+        hero
+      </div>
+      <div>
+        pricing snippet
+      </div>
+      <div>
+        info
+      </div>
+      <div>
+        users
+      </div>
+      <div>
+        signup
+      </div>
+    </div>
     <div>
-      hello world
+      footer
     </div>
   </body>
 </html>
